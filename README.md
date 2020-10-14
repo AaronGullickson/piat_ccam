@@ -54,3 +54,11 @@ You will now complete your report. In order to do that you should do the followi
 3. Add a conclusion (1-2 paragraphs) that describes your ultimate findings as well as any weaknesses or concerns you have about the analysis and/or data.
 
 When you have completed the assignment, knit your report to PDf and upload it to the Canvas assignment page.
+
+Because the dependent variable here is categorical, we will need to score it in some way to use it in linear models. To do this, we want to score all "Yes" responses as 1 and all other responses as 0. This means we can interpret all regression slopes as giving us the change in the probability of saying yes. To do this, you want to use the following syntax in your models:
+
+```r
+model1 <- lm(I(cc_happening=="Yes")~income, data=ccam)
+```
+
+The `I(cc_happening=="Yes")` will recode out dependent variable as the kind of score that we want.

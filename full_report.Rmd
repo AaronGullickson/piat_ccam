@@ -39,7 +39,11 @@ Describe the results of the full multivariate regression models. You can use the
 
 ```{r, results='asis', eval=FALSE}
 #make some models. You may need more or less than four. 
-model1 <- lm()
+
+#For the models we will score all yes values as a 1 on all other responses as a 
+#zero. This means we can interpret all of our coefficients as the change in the probability
+#of saying Yes. I have shown you the syntax for this Model 1.
+model1 <- lm(I(cc_happening=="Yes")~income, data=ccam)
 model2 <- lm()
 model3 <- lm()
 model4 <- lm()
