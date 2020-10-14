@@ -1,21 +1,23 @@
-# Putting It All Together Project on [Name of Research Project]
+# Putting It All Together Project on Income and Belief in Climate Change
 
 # Introduction
 
 Throughout the the term, you will be working to build up an analysis of a specific research question, detailed below. You will complete several Putting It All Together assignments that ask you to analyze a dataset using the specific tools you have learned. For each assignment, you will report your results in a brief report. The ultimate goal of this set of assignments is a final complete research report on your specific research question. 
 
-## Research Topic: 
+## Research Topic: Income and Belief in Climate Change 
 
-Describe research topic
+Using data from the Climate Change in the American Mind administered by Yale University, we will consider here is how a person's income is related to their belief in climate change. We will also consider whether the relationship between income and belief in climate change is different among individuals with different political party affiliation.
 
 ### Research questions
 
-1. x related to y
-2. contextual variable
+1. What is the association between a person's income and their belief in climate change?
+2. How is this association shaped by a person's political affiliation?
 
 ## Technical Details
 
 We will be using [R Markdown](https://rmarkdown.rstudio.com/) to write the actual reports as pdf documents. You should read in full the instructions for using R Markdown on the Canvas page. R Markdown will allow you to create professional quality reports with your tables and figures fully integrated. In this project, you will find a `full_report.Rmd` R Markdown file that you will use to produce your report. All assignments should be completed by knitting this report to PDF and submitting the PDF on Canvas. 
+
+You can learn more about the dataset that you will be using by going to the README in the input directory, where you will also find the actual RData file itself. 
 
 Please keep the following guidelines in mind for all project reports:
 
